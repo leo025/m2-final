@@ -1,0 +1,17 @@
+* {
+   padding: 0;
+   border: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.main {
+   background-color: rgb(37, 41, 59);
+   /*    color: hsl(228, 15%, 20%); */
+   margin-left: 12%;
+   margin-right: 12%;
+}
+
+.home-description {
+   color: blanchedalmond;
+}
