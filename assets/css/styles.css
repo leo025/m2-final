@@ -1,17 +1,223 @@
+/* global resetter */
 * {
    padding: 0;
    border: 0;
    margin: 0;
    box-sizing: border-box;
 }
-
-.main {
-   background-color: rgb(37, 41, 59);
-   /*    color: hsl(228, 15%, 20%); */
-   margin-left: 12%;
-   margin-right: 12%;
+body {
+   background-color: rgb(30, 38, 48);
 }
-
-.home-description {
-   color: blanchedalmond;
+/* visual temp */
+.main-page {
+   color: white;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.navbar {
+   background-color: rgb(21, 26, 33);
+}
+.nav-link {
+   color: orange;
+   font-size: 1rem;
+   font-weight: 700;
+   text-decoration: none;
+}
+.nav-link:hover {
+   color: white;
+   background-color: orange;
+}
+.navbar-brand {
+   color: orange;
+   font-size: 1.25rem;
+   font-weight: 800;
+   text-decoration: none;
+}
+/* main section */
+.main-page {
+   background-color: hsl(216, 28%, 7%);
+}
+.main h6 {
+   font-size: 2rem;
+}
+.main h3 {
+   font-size: 3.5rem;
+   font-weight: 700;
+}
+.main h4 {
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   line-height: 1;
+   border-bottom: 3px solid orange;
+   width: 40%;
+}
+.bt1 {
+   height: 60px;
+   width: 150px;
+   background-color: orange;
+   color: white;
+   outline: none;
+   border: none;
+   font-weight: bold;
+   border-radius: 10px;
+}
+.bt1:hover {
+   background-color: rgb(215, 140, 0);
+   transition: 0.5s;
+}
+.bt2 {
+   height: 60px;
+   width: 150px;
+   background-color: transparent;
+   color: rgb(255, 165, 0);
+   outline: none;
+   border: 1px solid;
+   font-weight: bold;
+   border-radius: 10px;
+}
+.bt2:hover {
+   background-color: rgb(255, 165, 0);
+   color: white;
+   transition: 0.5s;
+}
+/* about section */
+.about img {
+   -webkit-box-shadow: -25px 25px 0px 0px rgba(255, 165, 0, 1);
+   -moz-box-shadow: -25px 25px 0px 0px rgba(255, 165, 0, 1);
+   box-shadow: -25px 25px 0px 0px rgba(255, 165, 0, 1);
+}
+h1 {
+   font-size: 3rem;
+   font-weight: 800;
+}
+.font-sub {
+   font-size: 1rem;
+   font-weight: 300;
+}
+.font-weight-bold {
+   font-weight: 800;
+   color: orange;
+}
+.about p {
+   text-align: justify;
+}
+.progress {
+   background-color: rgb(21, 26, 33);
+   justify-content: flex-start;
+   border-radius: 50px;
+   align-items: center;
+   position: relative;
+   display: flex;
+   height: 30px;
+   width: 100%;
+}
+.pro-value1 {
+   animation: load1 3s normal forwards;
+   border-radius: 50px;
+   background-color: orange;
+   height: 30px;
+   width: 0;
+}
+.pro-value2 {
+   animation: load2 3s normal forwards;
+   border-radius: 50px;
+   background-color: orange;
+   height: 30px;
+   width: 0;
+}
+.pro-value3 {
+   animation: load3 3s normal forwards;
+   border-radius: 50px;
+   background-color: orange;
+   height: 30px;
+   width: 0;
+}
+.pro-value4 {
+   animation: load4 3s normal forwards;
+   border-radius: 50px;
+   background-color: orange;
+   height: 30px;
+   width: 0;
+}
+.progress p {
+   color: white;
+   padding: 6px;
+}
+@keyframes load1 {
+   0% {
+      width: 0%;
+   }
+   100% {
+      width: 95%;
+   }
+}
+@keyframes load2 {
+   0% {
+      width: 0%;
+   }
+   100% {
+      width: 85%;
+   }
+}
+@keyframes load3 {
+   0% {
+      width: 0%;
+   }
+   100% {
+      width: 25%;
+   }
+}
+@keyframes load4 {
+   0% {
+      width: 0%;
+   }
+   100% {
+      width: 10%;
+   }
+}
+.text-p-bar {
+   color: white;
+   float: right;
+}
+.bt3 {
+   height: 45px;
+   width: 150px;
+   background-color: orange;
+   color: white;
+   outline: none;
+   border: none;
+   font-weight: bold;
+   border-radius: 10px;
+}
+.bt3:hover {
+   background-color: transparent;
+   transition: 0.5s;
+   border: 1px solid;
+}
+/* services section */
+.card {
+   border: none;
+   outline: none;
+   -webkit-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+   box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+}
+.card p {
+   color: grey;
+}
+.circle {
+   height: 70px;
+   width: 70px;
+   background-color: lightgrey;
+   padding: 12px;
+   font-size: 30px;
+   border-radius: 50%;
+   color: orange;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+.card:hover .circle {
+   background-color: black;
+   color: orange;
+   transition: 0.5s;
 }
