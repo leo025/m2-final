@@ -225,3 +225,18 @@ h1 {
   color: orange;
   transition: 0.5s;
 }
+
+.contact .bt3 {
+  height: 60px;
+  width: 150px;
+  background-color: orange;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.bt3:hover {
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
